@@ -55,11 +55,12 @@ span {
   width: 95%;
 }
 .item {
+  max-width: 400px;
   flex: 1 1 auto;
 }
-#me, #interests {
+/*#me, #interests {
   max-width: 400px;
-}
+}*/
 .cont {
   flex-flow: row no-wrap;
   border: 5px solid rgb(111,41,97);
