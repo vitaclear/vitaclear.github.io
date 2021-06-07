@@ -49,7 +49,7 @@ span {
     display: flex;
     flex-flow: row no-wrap;
   padding: 15px;
-  width: 95%;
+  width: 80%;
   border: 5px solid rgb(157,118,79);
   border-radius: .5em;
 }
@@ -67,7 +67,7 @@ span {
   border-radius: .5em;
   padding: 10px;
   display: flex;
-  width: 80%;
+  width: 95%;
 }
 
 .it {
