@@ -49,13 +49,14 @@ span {
 }
 .flex_container {
     display: flex;
-    flex-flow: row no-wrap;
+    flex-flow: row wrap;
   width: 95%;
   border: 5px solid rgb(157,118,79);
   border-radius: .5em;
 }
 .item {
   min-width: 35%;
+  max-width: 50%;
   flex: 1 1 auto;
   padding: 20px;
 }
