@@ -50,7 +50,6 @@ span {
 .flex_container {
     display: flex;
     flex-flow: row no-wrap;
-  padding: 45px;
   width: 95%;
   border: 5px solid rgb(157,118,79);
   border-radius: .5em;
@@ -59,6 +58,7 @@ span {
   min-width: 45%;
   border: 2px solid black;
   flex: 1 1 auto;
+  padding: 30px;
 }
 /*#me, #interests {
   max-width: 400px;
