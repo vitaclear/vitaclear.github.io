@@ -45,15 +45,15 @@ span {
     margin-right: 20px;
     margin-left: 20px;
 }
-/*.flex-container {
+.flex-container {
     display: flex;
     flex-flow: row no-wrap;
   padding: 15px;
   width: 95%;
-  border: 5px solid hex(9D764F);
+  border: 5px solid rgb(157,118,79);
   border-radius: .5em;
 }
-.item {
+/*.item {
 /*  max-width: 400px;*/
   border: 2px solid black;
   flex: 1 1 auto;
@@ -61,7 +61,7 @@ span {
 /*#me, #interests {
   max-width: 400px;
 }*/
-.cont, .flex-container {
+.cont {
   flex-flow: row no-wrap;
   border: 5px solid rgb(111,41,97);
   border-radius: .5em;
