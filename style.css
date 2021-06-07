@@ -51,4 +51,6 @@ span {
 .item {
   flex: 1 1 auto;
 }
-/* END */
+#me {
+  max-width: 400px;
+}
