@@ -25,7 +25,7 @@ h1 {
     font-size: 36px;
 }
 h2 {
-    font-size: 24px;
+    font-size: 28px;
     border-bottom: 1px;
     margin-bottom: 8px;
 }
@@ -49,14 +49,13 @@ span {
 }
 .flex_container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row no-wrap;
   width: 95%;
   border: 5px solid rgb(157,118,79);
   border-radius: .5em;
 }
 .item {
   min-width: 35%;
-  max-width: 50%;
   flex: 1 1 auto;
   padding: 20px;
 }
