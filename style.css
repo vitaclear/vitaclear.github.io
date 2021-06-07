@@ -45,7 +45,7 @@ span {
     margin-right: 20px;
     margin-left: 20px;
 }
-.flex-container {
+/*.flex-container {
     display: flex;
     flex-flow: row no-wrap;
   padding: 15px;
@@ -57,11 +57,11 @@ span {
 /*  max-width: 400px;*/
   border: 2px solid black;
   flex: 1 1 auto;
-}
+}*/
 /*#me, #interests {
   max-width: 400px;
 }*/
-.cont {
+.cont, .flex-container {
   flex-flow: row no-wrap;
   border: 5px solid rgb(111,41,97);
   border-radius: .5em;
@@ -70,7 +70,7 @@ span {
   width: 95%;
 }
 
-.it {
+.it, .item {
   padding: 10px;
   background-color: rgba(111,41,97,.3);
   border: 2px solid rgba(111,41,97,.5);
