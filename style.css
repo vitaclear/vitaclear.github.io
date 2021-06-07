@@ -5,22 +5,19 @@ body {
 /*  max-width: 0.95; /* limit width */
   line-height: 1.5;
   padding: 32px;
-  background-color: rgb(251,239,208);
-/*  padding-bottom: 32px;*/
+  background-color: rgb(241,229,198);
 }
-/* {box-sizing: border-box;}*/
 div {
     border: 3px solid blue;
 }
 p {
-  margin-left: 30px;
-/*  padding: 100px;*/
+  margin-left: 15px;
     margin-bottom: 12px;
 }
 h1, h2, h3, h4 {
     font-weight: 400;
     margin-bottom: 0;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 h1 {
     font-size: 36px;
@@ -28,7 +25,6 @@ h1 {
 h2 {
     font-size: 32px;
     border-bottom: 1px;
-    border-bottom-color: grey;
     margin-bottom: 8px;
 }
 h3 {
@@ -54,11 +50,11 @@ span {
     flex-flow: row no-wrap;
   padding: 15px;
   width: 95%;
-  border: 5px solid #9D764F;
+  border: 5px solid hex(#9D764F);
   border-radius: .5em;
 }
 .item {
-  max-width: 400px;
+/*  max-width: 400px;*/
   flex: 1 1 auto;
 }
 /*#me, #interests {
@@ -70,7 +66,7 @@ span {
   border-radius: .5em;
   padding: 10px;
   display: flex;
-  width: 60%;
+  width: 80%;
 }
 
 .it {
