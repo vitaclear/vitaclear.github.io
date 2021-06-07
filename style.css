@@ -25,7 +25,7 @@ h1 {
     font-size: 36px;
 }
 h2 {
-    font-size: 32px;
+    font-size: 24px;
     border-bottom: 1px;
     margin-bottom: 8px;
 }
@@ -49,31 +49,16 @@ span {
 }
 .flex_container {
     display: flex;
-    flex-flow: row no-wrap;
+    flex-flow: row wrap;
   width: 95%;
   border: 5px solid rgb(157,118,79);
   border-radius: .5em;
 }
 .item {
-/*  border: 2px solid black;*/
+  min-width: 35%;
   flex: 1 1 auto;
   padding: 20px;
 }
 #me {
   min-width: 45%;
 }
-/*.cont {
-  flex-flow: row no-wrap;
-  border: 5px solid rgb(111,41,97);
-  border-radius: .5em;
-  padding: 10px;
-  display: flex;
-  width: 500px;
-}
-
-.it {
-  padding: 10px;
-  background-color: rgba(111,41,97,.3);
-  border: 2px solid rgba(111,41,97,.5);
-  flex: 1 1 auto;
-}*/
