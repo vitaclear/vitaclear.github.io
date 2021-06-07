@@ -55,14 +55,13 @@ span {
   border-radius: .5em;
 }
 .item {
-  min-width: 45%;
   border: 2px solid black;
   flex: 1 1 auto;
-  padding: 30px;
+  padding: 20px;
 }
-/*#me, #interests {
-  max-width: 400px;
-}*/
+#me {
+  min-width: 40%;
+}
 /*.cont {
   flex-flow: row no-wrap;
   border: 5px solid rgb(111,41,97);
