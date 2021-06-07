@@ -54,6 +54,8 @@ span {
     flex-flow: row no-wrap;
   padding: 15px;
   width: 95%;
+  border: 5px solid #9D764F;
+  border-radius: .5em;
 }
 .item {
   max-width: 400px;
@@ -68,7 +70,7 @@ span {
   border-radius: .5em;
   padding: 10px;
   display: flex;
-  width: 500px;
+  width: 60%;
 }
 
 .it {
