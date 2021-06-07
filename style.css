@@ -7,12 +7,6 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
-/* BEGIN (write your solution here) */
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 div {
     border: 3px solid blue;
 }
@@ -49,5 +43,12 @@ h4 {
 span {
     margin-right: 20px;
     margin-left: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+  flex: 1 1 auto;
 }
 /* END */
