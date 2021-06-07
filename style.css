@@ -57,7 +57,8 @@ span {
 #me #interests {
   max-width: 400px;
 }
-.cont {  
+.cont {
+  flex-flow: row no-wrap;
   border: 5px solid rgb(111,41,97);
   border-radius: .5em;
   padding: 10px;
