@@ -13,7 +13,7 @@ div {
 }
 p {
   margin-left: 30px;
-  padding: 100px;
+/*  padding: 100px;*/
     margin-bottom: 12px;
 }
 h1, h2, h3, h4 {
@@ -54,6 +54,6 @@ span {
 .item {
   flex: 1 1 auto;
 }
-#me {
+#me #interests {
   max-width: 400px;
 }
