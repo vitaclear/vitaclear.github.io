@@ -45,7 +45,7 @@ span {
     margin-right: 20px;
     margin-left: 20px;
 }
-.flex-container {
+.flex_container {
     display: flex;
     flex-flow: row no-wrap;
   padding: 15px;
