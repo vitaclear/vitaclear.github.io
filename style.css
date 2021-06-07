@@ -55,12 +55,12 @@ span {
   border-radius: .5em;
 }
 .item {
-  border: 2px solid black;
+/*  border: 2px solid black;*/
   flex: 1 1 auto;
   padding: 20px;
 }
 #me {
-  min-width: 40%;
+  min-width: 45%;
 }
 /*.cont {
   flex-flow: row no-wrap;
